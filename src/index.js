@@ -66,6 +66,5 @@ const handleSearch = debounce((event) => {
     clearMarkup(countryInfo);
   }
 }, DEBOUNCE_DELAY);
-
 searchBox.addEventListener('input', handleSearch);
 
